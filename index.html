@@ -15,13 +15,18 @@
     <title>Trabajo practico 5 Ejercicio 1 JS</title>
 </head>
 <body>
-    <header>
-        <h1>Piedra, papel o tijera</h1>
-        <hr>
-    </header>
     <main>
         <section class="container my-4">
-
+            <h1 class="text-center">¡A jugar!</h1>
+            <h4 class="text-center">¿piedra, papel o tijera?</h4>
+            <article class="d-flex justify-content-center mt-3">
+                <button class="btn btn-success" id="btnPiedra">PIEDRA</button>
+                <button class="btn btn-warning mx-2" id="btnPapel">PAPEL </button>
+                <button class="btn btn-danger" id="btnTijera">TIJERA</button>
+            </article>
+            <div class="alert alertRosa d-none" role="alert" id="divParaAlert">
+                ¡Ganaste!
+            </div>
         </section>
     </main>
     <footer class="text-center text-light bg-dark py-4">
