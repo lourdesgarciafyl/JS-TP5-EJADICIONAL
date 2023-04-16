@@ -1,0 +1,11 @@
+ody{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+    background: #EECDA3;  
+    background: -webkit-linear-gradient(to bottom, #EF629F, #EECDA3); 
+    background: linear-gradient(to bottom, #EF629F, #EECDA3); 
+}
