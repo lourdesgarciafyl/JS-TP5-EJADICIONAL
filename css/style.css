@@ -12,13 +12,22 @@ main{
 }
 h1, h4{
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 400;
     font-family: 'Inconsolata', monospace;
 }
-p{
-    font-size: large;
+.btnRosa{
+    background-color:     #b54c7a;
+    color: white;
     font-family: 'Inconsolata', monospace;
+}
+.btnRosa:hover{
+    background-color: #eecda3;
+}
+.btnRosaDisabled{
+    background-color: white;
+    color: #EF629F;
+    font-family:  'Inconsolata', monospace;
 }
 .alertSeguiParticipando{
     background-color: black;
@@ -29,3 +38,9 @@ p{
     color: black;
     font-size: 20px;
 }
+
+@media (max-width: 575.98px) { 
+    h1, p{
+      font-size: 20px;
+    }
+  }
